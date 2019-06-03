@@ -18,7 +18,7 @@ import java.util.Properties;
 
 @Configuration
 @EnableTransactionManagement
-@PropertySource("file:D:\\Completed\\mavSpringDb\\mavSpDb\\application.properties")
+@PropertySource("file:${user.dir}\\application.properties")
 public class HibernateConfig {
 
     @Autowired
